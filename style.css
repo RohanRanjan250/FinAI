@@ -1,4 +1,4 @@
-h1{
+h3{
     display: flex;
     justify-content: center;
 }
@@ -6,4 +6,20 @@ h1{
 .dropdowns{
     display: flex;
     justify-content: space-evenly;
+    gap: 50px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+    height: 1000px;
+    background-color: aliceblue;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Disclaimer{
+    margin-left: 200px;
+    margin-right: 200px;
 }

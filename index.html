@@ -8,26 +8,58 @@
 </head>
 <body>
     <header>
-        <h1>FinAI</h1>
+        <h3>FinAI</h3>
         <hr>
     </header>
     <main>
-        <p>Monthly income:</p>
-        <p>Age:</p>
-        <p>Money you want to intrest:</p>
-        <div class="dropdowns">
-            <select>
-                <option></option>
-            </select>
-            <select>
-                <option></option>
-            </select>
-            <select>
-                <option></option>
-            </select>
+        <div class="center">
+            <!-- <p>Age:</p>
+            <br>
+            <p>Monthly income:</p>
+            <br>
+            <p>Money you want to invest:</p>
+            <br> -->
+            <div class="dropdowns">
+                <div>
+                    <p>Age</p>
+                    <select id="Age">
+                        <option>Select</option>
+                        <option>20-29</option>
+                        <option>30-39</option>
+                        <option>Above 40</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Income</p>       
+                    <select id="income">
+                        <option>Select</option>
+                        <option>Below 6 Lakhs</option>
+                        <option>6-12 Lakhs</option>
+                        <option>Above 12 Lakhs</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Investment Amount</p>
+                    <input type="tel">
+                </div>
+                <br>
+                <center>
+                    <input type="submit">
+                </center>
+                
+            </div>
         </div>
     </main>
-        
+    <footer>
+        <div class="Disclaimer">
+            <h1>
+                <b>Disclaimer</b>
+            </h1>
+            <p class="disclaimerpara">
+                Mutual Fund investments are subject to market risks, read all scheme related documents carefully. The NAVs of the schemes may go up or down depending upon the factors and forces affecting the securities market including the fluctuations in the interest rates. The past performance of the mutual funds is not necessarily indicative of future performance of the schemes. The Mutual Fund is not guaranteeing or assuring any dividend under any of the schemes and the same is subject to the availability and adequacy of distributable surplus. Investors are requested to review the prospectus carefully and obtain expert professional advice with regard to specific legal, tax and financial implications of the investment/participation in the scheme.
+            </p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
