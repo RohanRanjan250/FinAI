@@ -13,6 +13,7 @@ h2{
 }
 
 .center{
+    display: none;
     display: flex;
     justify-content: center;
     box-sizing: 500px;
