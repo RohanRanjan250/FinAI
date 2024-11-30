@@ -1,0 +1,23 @@
+* {
+    background: linear-gradient(black, blugreen);
+}
+
+    .targetOfView{
+        text-align: center;
+        margin-top:300px;
+
+    }
+    .finaihead{
+        font-size:160px;
+        font-family:fauna one;
+        font-weight:1000;
+        margin-bottom: 10px;
+    }
+
+    #quot{
+        font-size:40px;
+        font-weight: 700;
+        font-family : fauna one;
+    }
+
+
