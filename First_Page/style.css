@@ -1,42 +1,105 @@
 *{
-    color:white;
+    color:black;
 }
-
-.targetOfView{
-    text-align: center;
-    margin-top:300px;
-
-
+body{
+    position:static;
+    background-color: #E8E8E8;
+    margin:0px;
 }
-.finaihead{
-    font-size:160px;
-    font-family:fauna one;
-    font-weight:1000;
-    margin-bottom: 10px;
+    .targetOfView{
+        text-align: center;
+    }
+    .finaihead{
+        font-size:160px;
+        font-family:fauna one;
+        font-weight:1000;
+        margin-bottom: 10px;
 
-}
+    }
+    #quot{
+        font-size:40px;
+        font-weight: 700;
+        font-family : fauna one;
+    }
+    main{
 
-#quot{
-    font-size:40px;
-    font-weight: 700;
-    font-family : fauna one;
+        margin-bottom:30%;
+        padding-top:10%;
+        position: sticky;
+        top:50px;
+        z-index:0;
 
-}
-main{
-    margin-bottom:400px;
+    }
+    section{
+        box-shadow:10px 0px 10px 5px rgb(255, 255, 255);
+        background-color: rgba(0, 73, 0, 0.11);
+        border-radius: 40px;
+        backdrop-filter:blur(50px);
+    }
+    .sectionpad{
+        padding:50px;
+    }
 
-}
-section{
-    background-color: rgba(40, 204, 40, 0.05);
+    .content{
+        height: 500px;
+        width: 100%;
+        font-size: 24px;
+    }
+    .vtv3{
+        font-family: vt323;
+        font-size:40px;
+        font-weight:lighter;
+    }
 
-    border-radius: 10px;
-    margin: auto  30px
-}
-.sectionpad{
-    padding:50px;
+    h3{
+        font-size: 70px;
+        font-weight: lighter;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(90deg, #ffffff);
+    }
+    ::-webkit-scrollbar{
+        width: 2.5px;
+    }
+    header{
+        position:sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .navbar{
+        padding-left:30px;
+        padding-right:30px;
+        margin-bottom:0px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        height:50px;
+        justify-content: space-between;
+        background-color: rgba(0, 73, 0, 0.24);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        backdrop-filter: blur(30px);
 
-}
-
+    }
+    .webName{
+        font-size:40px
+    }
+    .navbarmenu{
+        display: flex;
+        gap: 30px;
+    }
+    .navbar-sidecontent{
+        font-size:20px;
+        align-items: center;
+        font-weight:100;
+        font-family:Silkscreen;
+        cursor: pointer;
+    }
+    .navbar-sidecontent:hover{
+        color:#80A400;
+        transition-duration: 0.5s;
+        text-decoration: underline;
+    }
 
 
 
