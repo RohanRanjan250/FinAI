@@ -1,0 +1,50 @@
+body{
+    background-color: #E8E8E8;
+}
+.center{
+    /* display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; */
+    margin-top: 12%;
+    border: 10px red dashed;
+    display: inline-block;
+    margin-left: 32%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#name{
+    width: 228px;
+    height: 25px;
+    font-size: 15px;
+}
+
+#issue{
+    height: 90px;
+    font-size: 15px;
+    width: 470px;
+}
+
+#email{
+    height: 25px;
+    width: 468px;
+    font-size: 15px;
+}
+
+.diff_divs{
+    margin-top: 15px;
+}

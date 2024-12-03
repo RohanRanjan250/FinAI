@@ -1,0 +1,180 @@
+*{
+    color:black;
+}
+body{
+    position:static;
+    background-color: #E8E8E8;
+    margin:0px;
+}
+
+.targetOfView{
+    text-align: center;
+}
+.finaihead{
+    font-size:160px;
+    font-family:fauna one;
+    font-weight:1000;
+    margin-bottom: 10px;
+
+}
+#quot{
+    font-size:40px;
+    font-weight: 700;
+    font-family : fauna one;
+}
+main{
+
+    margin-bottom:30%;
+    padding-top:10%;
+    position: sticky;
+    top:50px;
+    z-index:0;
+
+}
+section{
+    box-shadow:10px 0px 10px 5px rgb(255, 255, 255);
+    background-color: rgba(0, 73, 0, 0.11);
+    border-radius: 40px;
+    backdrop-filter:blur(50px);
+}
+.sectionpad{
+    padding:50px;
+}
+
+.content{
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.both{
+    display: flex;
+}
+
+.text{
+    width: 50%;
+}
+
+.textofreview{
+    font-size:24px;
+}
+
+.pto{
+    font-family:"Space Mono", monospace;
+    font-weight:lighter;
+    font-size: 25px;
+}
+
+h3{
+    font-size: 70px;
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #ffffff);
+}
+
+::-webkit-scrollbar{
+    width: 2.5px;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar{
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom:0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:50px;
+    justify-content: space-between;
+    background-color: rgba(0, 73, 0, 0.24);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    backdrop-filter: blur(30px);
+
+}
+
+.webName{
+    font-size:40px;
+    font-family:"space mono", monospace;
+}
+
+.navbarmenu{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-sidecontent{
+    font-size:20px;
+    align-items: center;
+    font-weight:100;
+    font-family:Silkscreen;
+    cursor: pointer;
+}
+
+.navbar-sidecontent:hover{
+    color:#80A400;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+.firstpage_image{
+    width: 500px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.firstpage_diffimage{
+    width: 700px;
+    height: 350px;
+    
+}
+
+.title{
+    margin-bottom: 70px;
+}
+
+@media(max-width:1240px){
+    .textofreview{
+        display: flex;
+        justify-content: center;
+    }
+
+    .both{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstpage_image{
+        margin: 0px;
+    }
+
+    .firstpage_diffimage{
+        margin: 0px;
+    }
+
+    /* .both_div{
+        display: flex;
+        flex-direction: column;
+    } */
+}
+
+
+

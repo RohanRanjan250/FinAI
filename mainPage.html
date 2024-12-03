@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainpage_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Nova+Mono&family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h2>FinAI</h2>
-        <hr>
+        <!-- <h2>FinAI</h2>
+        <hr> -->
+        <div class="navbar">
+            <p class="webName"><b>FinAI</b></p>
+            <div class="navbarmenu">
+                <a href="landing.html" class="navbar-sidecontent" style="text-decoration: none;" hover>
+                    <p>Home</p>
+                </a>
+                <p class="navbar-sidecontent">Get Started</p>
+                <p class="navbar-sidecontent">Overview</p>
+                <a href="contactUs.html" class="navbar-sidecontent" style="text-decoration: none;">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+        </div>
     </header>
 
     <main>
-        <div class="data-input">
+        <!-- <div class="data-input">
             <div class="dropdowns">
                 <div class="Age">
                     <p>Age:</p>
@@ -44,6 +60,11 @@
 
             </div>
             <button id="submitButton">Submit</button>
+        </div> -->
+        <div class="detail_div">
+            <label class="detailss">Age:</label>
+            <label class="detailss">Income:</label>
+            <label class="detailss">Investment:</label>
         </div>
         <div class="center">
             <div class="SecondDropdowns">
@@ -86,7 +107,7 @@
             </p>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="page2.js"></script>
 </body>
 
 </html>
