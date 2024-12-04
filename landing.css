@@ -15,6 +15,7 @@ body{
     font-family:fauna one;
     font-weight:1000;
     margin-bottom: 10px;
+    
 
 }
 #quot{
@@ -25,7 +26,6 @@ body{
 main{
 
     margin-bottom:30%;
-    padding-top:10%;
     position: sticky;
     top:50px;
     z-index:0;
@@ -176,5 +176,103 @@ header{
     } */
 }
 
+/* footer{
+    background-color: beige;
+    display:flex;
+} */
+
+/* footer{
+    margin-top:30px;
+    background-color: black;
+    color: white;
+    width:5000px;
+    height:500px;
+
+}
+
+.outerDiv{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    /* display:flex;
+    flex-direction: column; 
+    align-items: space-between;
+    margin:10px;
+} 
+
+.col1{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin-right:600px;
+}
+
+.iconClass{
+    display:flex;
+    /* justify-content: space-between; 
+    padding-top: 160px;
+
+}
+.icon1{
+    display:inline-block;
+    justify-content: space-evenly;
+    padding:0px 0px 10px 0px;
+    padding-right:20px;
+    height: 30px;
+    width:30px;
+    border: 1px solid white;
+
+}
+.icon1 svg {
+    width: 15px;              
+    height: 15px;             
+    fill: white;       
+} */
+
+.targetOfView {
+    position: relative; /* Establishes a positioning context */
+    width: 100vw;       /* Full viewport width */
+    height: 100vh;      /* Full viewport height */
+    overflow: hidden;   /* Ensures no overflow */
+    display: flex;      /* Centers the text content */
+    align-items: center;/* Vertically center */
+    justify-content: center; 
+}
+
+.anim {
+    position: absolute; /* Place the image behind the text */
+    overflow: hidden; 
+    padding:0;
+    width: 100%;       /* Cover entire container */
+    height: 100%;      /* Cover entire container */
+  /* Maintain aspect ratio and cover area */
+    z-index: -1;       /* Send the image to the background */
+    opacity: 0.2;
+}
+
+.content-overlay {
+    text-align: center; /* Center the text */
+    color: white;       /* Adjust text color for visibility over image */
+    z-index: 1;         
+    padding: 20px;    
+}
+
+.start{
+    margin-top: 50px;
+    height: 60px;
+    width: 170px;
+    border-radius: 60px;
+    
+    
+}
 
 
