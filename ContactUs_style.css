@@ -1,5 +1,5 @@
 body{
-    background-color: #E8E8E8;
+    background-color: black;
 }
 .center{
     /* display: flex;
@@ -7,12 +7,12 @@ body{
     justify-content:center;
     align-items: center; */
     margin-top: 12%;
-    border: 10px red dashed;
     display: inline-block;
     margin-left: 32%;
     border-radius: 20px;
     padding: 20px;
     background-color: antiquewhite;
+    box-shadow: 10px 10px 20px red;
 }
 
 h1{
