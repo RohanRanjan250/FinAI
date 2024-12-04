@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.center{
+    margin-top: 15%;
+    display: inline-block;
+    margin-left: 35%;
+    border-radius: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 10px 10px 20px red;
+}
+
+
+.submit{
+    margin-top: 15%;
+    margin-left: 38%;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    width: 50px; 
+    height: 20px;
+}
+
+#name{
+    width: 228px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 22%;
+    margin-top: 10%;
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.heading_center{
+    display: flex;
+    justify-content: center;
+}
